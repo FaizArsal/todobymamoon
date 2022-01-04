@@ -1,0 +1,114 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, red, rgb(255, 208, 0));
+    color:black !important;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.todoH1 {
+    text-align: center;
+    
+
+}
+.todoH1, form {
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    padding: 10px 40px 10px 10px;
+    font-size: 15px;
+    border: none !important;
+    background:white;
+    width: 400px;
+    border-radius:10px 0 0px 10px ;
+}
+
+form button {
+    padding: 10px;
+    font-size: 15px;
+    background: rgb(255, 0, 0);
+    border: none;
+    color: rgb(255, 0, 0) !important;;
+    background: white;
+    transition: all 0.3s ease;
+}
+.btndAll{
+    border-radius: 0px 10px 10px 0px;
+}
+form button:hover {
+    background: red;
+    color: rgb(251, 255, 0);
+}
+
+form button i {
+    font-size: 13px;
+    font-size: 20px;
+   
+}
+
+.todoList {
+    width: 450px;
+    border-radius:10px 0 0px 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+.mainContainer {
+   
+}
+.listItem li{
+    flex: 1;
+}
+
+li {
+   
+    list-style: none;
+   
+    color: black;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px 10px 5px 10px;
+}
+.container2{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.btnM, .btnP{   
+    margin-left:10px ;
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 20px;
+}
+.btnM:hover{
+    color: rgb(253, 228, 0);
+
+}
+.btnP:hover{
+    color: rgb(245, 241, 2);
+}
